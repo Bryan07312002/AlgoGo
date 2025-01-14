@@ -1,5 +1,6 @@
 package sorting
-// O(n^2)
+
+// time: O(n^2)
 func BubbleSort(n []int) []int {
 	for i := 0; i < len(n); i++ {
 		for j := 0; j < len(n)-1; j++ {
